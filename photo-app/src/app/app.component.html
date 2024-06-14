@@ -1,0 +1,6 @@
+<div class="photo-gallery">
+<div class="photo" *ngFor="let photo of photos">
+  <img [src]="photo.thumbnailUrl" alt="{{ photo.title }}">
+  <p style="font: bold;">{{ photo.title }}</p>
+</div>
+</div>

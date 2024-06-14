@@ -1,0 +1,29 @@
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .photo {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+
+  .photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .photo p {
+    padding: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
